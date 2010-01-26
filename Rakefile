@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "rwithings"
     gem.summary = %Q{Ruby library for the Withings WiFi scale API}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{Ruby library for the Withings WiFi scale API}
     gem.email = "mwhuss@gmail.com"
     gem.homepage = "http://github.com/mwhuss/rwithings"
     gem.authors = ["Marshall Huss"]

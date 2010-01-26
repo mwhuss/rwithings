@@ -1,6 +1,6 @@
 = rwithings
 
-Description goes here.
+Withings (http://www.withings.com/) has a awesome WiFi enabled scale that uploads your information to their service whenever you weigh yourself. This is a Ruby library for their service.
 
 == Note on Patches/Pull Requests
  
