@@ -1,4 +1,4 @@
-class RWithings
+module RWithings
   class << self
     attr_accessor :configuration
   end
@@ -15,6 +15,5 @@ class RWithings
       @api_key = @email = @password =  nil
     end
   end
-  
   
 end

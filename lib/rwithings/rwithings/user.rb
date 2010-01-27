@@ -16,7 +16,7 @@ class RWithings::User < RWithings::Base
       user.short_name   = user_res['shortname']
       user.is_public    = user_res['ispublic']
       user.birthdate    = Time.at(user_res['birthdate'])
-      user.gender       = user_res['gender'] == 0 ? :mail : :female
+      user.gender       = user_res['gender'] == 0 ? :male : :female
       user.id           = user_res['id']
       user.fat_method   = user_res['fatmethod']
       user.first_name   = user_res['firstname']
@@ -26,7 +26,8 @@ class RWithings::User < RWithings::Base
     end
   
     def all
-      res       = get("/user?action=getbyuserid&userid=#{id}&publickey=#{RWithings.configuration.api_key}")
+      raise "Not yet implemented"
+      #res       = get("/user?action=getbyuserid&userid=#{id}&publickey=#{RWithings.configuration.api_key}")
     end
 
   end
